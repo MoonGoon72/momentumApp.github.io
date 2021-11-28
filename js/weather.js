@@ -13,7 +13,7 @@ function onGeoOk(position) {
             console.log(weather);
             console.log(city);
             city.innerText = data.name;
-            weather.innerText = data.weather[0].main;
+            weather.innerText = `${data.weather[0].main} / ${data.main.temp}º`;
 
     });
 

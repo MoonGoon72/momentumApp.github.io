@@ -56,16 +56,3 @@ if (savedToDos){
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo); 
 }
-
-
-
-// if (savedToDos === null){
-    
-// } else {
-//     const toDoNum = toDos.length;
-//     let num;
-//     for (num = 1; num == toDoNum; num++){
-
-//         paintToDo(savedToDos[num -1]);
-//     }
-// }
